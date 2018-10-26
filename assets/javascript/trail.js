@@ -38,7 +38,7 @@ $("#submit").on("click", function () {
     console.log("Zipcode: " + userZip);
     event.preventDefault();
     var weatherAPIKey = "1ea7d1356516bbfed9e0beb0310c514f";
-    var weatherQueryURL = "http://api.openweathermap.org/data/2.5/forecast?units=imperial&cnt=1&zip=" + userZip + ",us&APPID=" + weatherAPIKey;
+    var weatherQueryURL = "https://api.openweathermap.org/data/2.5/forecast?units=imperial&cnt=1&zip=" + userZip + ",us&APPID=" + weatherAPIKey;
 
     $.ajax({
         url: weatherQueryURL,

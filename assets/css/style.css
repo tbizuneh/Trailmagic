@@ -1,8 +1,8 @@
 .navbar-brand {
     font-family: fantasy;
     /* font-weight: bold; */
-    font-size: 40px;
-    background: lightseagreen;  
+    font-size: 40px;  
+    text-shadow: 3px 4px 5px black;
 
 }
 #about{
@@ -12,14 +12,15 @@
     
 }
 #weather{
-    background: green;
+    background:#3b6363;
     color: black
 }
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background: rosybrown;}
+    background: url(../image/hik1.jpG);
+}
 #weather-data{
-    background: lightblue;
+    background: white;
 }
 
 #map {
@@ -41,23 +42,38 @@ th {
 
 #table-data {
     align-content: center;
-    background: burlywood;
+    background: white;
 }
 .container-fluid{
     background-color:#3b6363;
-    color: blanchedalmond;
+    color: black;
     
 }
  #table{
-    background:lightseagreen;
+    background:white;
     color: black 
 }
 #data{
-    background: brown;
+    background: #3b6363;
 }
 #temp{
-    background: grey;
+    background: white;
     color: black;
 }
+footer, .push {
+    height: 80px;
+  }
+  
+#footer {
+    background-color: #666666;
+    border-top: 8px solid darkslategray;
+    line-height: 80px;
+    color: #CCCCCC;
+    text-align: center;
+  }
+  
+  #footer {
+    margin: 0px;
+  }
     
     

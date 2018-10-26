@@ -1,11 +1,25 @@
 .navbar-brand {
-    font-family: 'Concert One', cursive !important;
+    font-family: fantasy;
     /* font-weight: bold; */
-    font-size: 25px;
-}
+    font-size: 40px;
+    background: lightseagreen;  
 
+}
+#about{
+    font-size: 18px;
+    margin-top: 15px;
+
+    
+}
+#weather{
+    background: green;
+    color: black
+}
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background: rosybrown;}
+#weather-data{
+    background: lightblue;
 }
 
 #map {
@@ -21,8 +35,29 @@ body {
 
 th {
     align-content: center;
+    
+   
 }
 
 #table-data {
     align-content: center;
+    background: burlywood;
 }
+.container-fluid{
+    background-color:#3b6363;
+    color: blanchedalmond;
+    
+}
+ #table{
+    background:lightseagreen;
+    color: black 
+}
+#data{
+    background: brown;
+}
+#temp{
+    background: grey;
+    color: black;
+}
+    
+    

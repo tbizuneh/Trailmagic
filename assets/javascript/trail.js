@@ -9,6 +9,7 @@ var mapArray = [];
 var map;
 
 
+
 // Simple clear button to reset global variables and clear out weather and hiking data from tables
 $("#clear").on("click", function () {      
     event.preventDefault();

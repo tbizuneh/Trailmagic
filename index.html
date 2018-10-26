@@ -28,8 +28,8 @@
               <button type="submit" class="btn btn-default" id="submit">Submit</button>
               <button type="clear" class="btn btn-default" id="clear">Clear</button>
             </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a>What's TrailMagic?</a></li>
+            <ul class="nav navbar-nav navbar-right" id="about">
+              <button><a>What's TrailMagic?</button></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -45,9 +45,9 @@
         <hr>
 
         <div class="panel panel-default">
-            <div class="panel-heading weather-viewer"> Weather Data </div>
+            <div class="panel-heading weather-viewer" id="weather"> Weather Data </div>
 
-            <table class="table table-hover">
+            <table class="table table-hover" id="temp" >
                 <tr>
                     <th scope="col">Closest City</th>
                     <th scope="col">Temperature (F)</th>
@@ -59,9 +59,9 @@
         </div>
 
         <div class="panel panel-default">
-            <div class="panel-heading trail-viewer"> Trail Data </div>
+            <div class="panel-heading trail-viewer" id="data"> Trail Data </div>
 
-            <table class="table table-hover">
+            <table class="table table-hover" id="table">
                 <tr>
                     <th scope="col">Trail Name</th>
                     <th scope="col">Length (miles)</th>
